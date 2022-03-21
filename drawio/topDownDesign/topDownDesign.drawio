@@ -66,7 +66,7 @@
                 <mxCell id="8" value="check if guessed_number == RANDOM_NUMBER" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
                     <mxGeometry x="200" y="330" width="130" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="check if guessed_number =! RANDOM_NUMBER" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+                <mxCell id="9" value="check if guessed_number != RANDOM_NUMBER" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
                     <mxGeometry x="348" y="330" width="131" height="60" as="geometry"/>
                 </mxCell>
             </root>
