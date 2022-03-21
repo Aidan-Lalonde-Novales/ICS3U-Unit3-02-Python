@@ -4,4 +4,4 @@
 # Created March 2022
 # This file contains constants
 
-EXAMPLE = 1
+RANDOM_NUMBER = 1
