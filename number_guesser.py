@@ -2,23 +2,23 @@
 
 # Created by Aidan Lalonde-Novales
 # Created March 2022
-# This program ...
+# This program prompts a user to guess a number
+# and tells them if they are correct or not.
 
 import constants
 
 
 def main():
-    # this function calculates ...
+    # this function gets a guess then checks if it is right
 
     # input
-    number = float(input("Enter a number: "))
+    guessed_number = int(input("Enter a number between 0 and 9: "))
 
-    # process
-    output = number + 1
-
-    # output
-    print("")
-    print("Your answer is {0:,.2f}".format(output))
+    # process & output
+    if guessed_number == constants.RANDOM_NUMBER:
+        print("You Guessed Correctly!")
+    if guessed_number != constants.RANDOM_NUMBER:
+        print("You Guessed Incorrectly.")
     print("\nDone.")
 
 
